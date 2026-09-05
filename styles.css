@@ -1,0 +1,85 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    text-align: center;
+    background-color: #1B244A;
+    color: #eee;
+
+}
+
+.team {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.score-num {
+    color: #F94F6D;
+    font-size: 90px
+}
+
+.points {
+    margin-top: 20px;
+}
+
+.btn {
+    width: 45px;
+    height: 45px;
+    background: none;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-family: inherit;
+    border-radius: 6px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#restart-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background: #b4324a;
+    color: #eee;
+    font-family: inherit;
+    border: none;
+    border-radius: 6px;
+}
+
+.fouls-el {
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.fouls-num {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.plus {
+    font-size: inherit;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e1e0e0;
+}

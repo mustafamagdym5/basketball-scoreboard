@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Score Board</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="board">
+                <h1 class="team">HOME</h1>
+                <div class="score">
+                    <p class="score-num" id="home-el"></p>
+                </div>
+                <div class="points">
+                    <button class="btn" onclick="add1Home()">+1</button>
+                    <button class="btn" onclick="add2Home()">+2</button>
+                    <button class="btn" onclick="add3Home()">+3</button>
+                </div>
+            </div>
+            <div class="board">
+                <h1 class="team">GUEST</h1>
+                <div class="score">
+                    <p class="score-num" id="guest-el"></p>
+                </div>
+                <div class="points">
+                    <button class="btn" onclick="add1Guest()">+1</button>
+                    <button class="btn" onclick="add2Guest()">+2</button>
+                    <button class="btn" onclick="add3Guest()">+3</button>
+                </div>
+            </div>    
+        </div>
+
+        <div class="fouls">
+            <h2 class="fouls-el">Fouls</h2>
+            <p class="fouls-num">
+                <button class="plus" onclick="addFoulHome()">+</button> <span id="home-fouls-el"></span> x <spand id="guest-fouls-el"></spand> <button class="plus" onclick="addFoulGuest()">+</button>
+            </p>
+        </div>
+
+        <button id="restart-btn" onclick="restart()">New Game</button>
+
+        <script src="script.js"></script>
+    </body>
+</html>
